@@ -1,2 +1,5 @@
 .DS_Store
-awal/
+awal/*
+node_modules
+
+DEVELOPER/

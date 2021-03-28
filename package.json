@@ -4,7 +4,7 @@
   "description": "Handy tools for tooensure toolbox",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile-sass": "node-sass ./assets/css/sass/main.scss ./assets/css/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/wilsmex/blog-site-template/issues"
   },
-  "homepage": "https://github.com/wilsmex/blog-site-template#readme"
+  "homepage": "https://github.com/wilsmex/blog-site-template#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "typescript": "^4.2.3"
+  }
 }
